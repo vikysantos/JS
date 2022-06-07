@@ -1,0 +1,95 @@
+body{
+   
+   font: normal 15px Arial;
+   margin: 0;
+}
+
+header{
+    background-color: rgba(3, 3, 3, 0.685);
+   
+    margin: 0;
+}
+
+section{
+    background-image: "netflix.jpg";
+    background-color: rgba(3, 3, 3, 0.685);
+    margin: 0;
+}
+
+footer{
+    background-image : none; 
+    background-color: rgba(3, 3, 3, 0.685);
+    width: auto;
+    height: auto;
+    
+}
+
+.h1 {
+    
+    font-family: "Times New Roman", Times, serif;
+}
+
+div#reg{
+    width: 400px;
+    height: 500px ;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: aliceblue;
+    size: 0.10px;
+    margin: auto;   
+}
+
+div#title{
+    width: 270px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: aliceblue;
+    size: 0.10px;
+    margin: auto;
+    font-size: large;
+}
+
+input#form{
+    width: 270px;
+    height: 40px; 
+    background-color: rgba(53, 53, 53, 0.904);
+    border-radius: 5px;
+    font: normal 15px Arial;
+    margin: auto;
+    color: grey;   
+}
+
+input#button{
+    width: 278px;
+    height: 50px; 
+    background-color: rgb(150, 7, 7);
+    color: white;
+    border-radius: 5px;
+    font: normal 15px Arial;
+    margin: auto;   
+}
+
+div#text{
+    width: 270px;
+    height: 200px ;
+    text-align: justify;
+    color: aliceblue;
+    size: 0.10px;
+    margin: auto;    
+}
+
+a:visited {
+    color: rgb(150, 7, 7);
+}
+
+a:link {
+color: white;
+}
+
+a:link#inf {
+    color: rgb(63, 39, 199);
+}
+
+a:link#reg {
+    color: white;
+}
