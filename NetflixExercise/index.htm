@@ -19,18 +19,21 @@
                 <div id="title">
                     <h1> <b>Iniciar sessão</b>  </h1>
                 </div>
+               
                 <div>
-                    <p>  
-                        <input type="email" name="email" id=form value="E-mail ou numero de telefone">
-                    <br>
-                    <br>
-                        <input type="password" name="pwd" id=form value="Palavra-passe">
-                    
-                    </p>
-                    
-                    <p id="menor">
-                        <input type="button" name="login" id="button" value="Iniciar sessão" onclick="login()"><br>
-                    </p> 
+                    <form id="login-form">
+                        <p>  
+                            <input type="email" name="email" id=form placeholder="E-mail ou numero de telefone">
+                        <br>
+                        <br>
+                            <input type="password" name="pwd" id=form placeholder="Password">
+                        
+                        </p>
+                        
+                        <p id="menor">
+                            <input type="submit" value="Iniciar sessão" name="login" id="button" onclick="login()"><br>
+                        </p> 
+                    </form>
                     
                     <div id="text">   
                         <h6><input type="checkbox" name="memo" checked>Memorizar os dados
@@ -58,6 +61,6 @@
     <footer>
         hjsahlkjxl
     </footer>
-   
+   <script type="text/ja" src="script.js"></script>
 </body>
 </html>

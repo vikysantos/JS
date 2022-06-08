@@ -6,14 +6,13 @@ body{
 
 header{
     background-color: rgba(3, 3, 3, 0.685);
-   
-    margin: 0;
+    
 }
 
 section{
     background-image: "netflix.jpg";
     background-color: rgba(3, 3, 3, 0.685);
-    margin: 0;
+    
 }
 
 footer{
@@ -56,7 +55,8 @@ input#form{
     border-radius: 5px;
     font: normal 15px Arial;
     margin: auto;
-    color: grey;   
+    color: grey; 
+    padding: 15px  
 }
 
 input#button{
