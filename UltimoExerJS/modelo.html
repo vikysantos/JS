@@ -9,21 +9,16 @@
 </head>
 <body>
     <header> 
-        <h1> Analisador de números </h1>
+        <h1> Tabuada ee </h1>
     </header>
     <section>
-        <div>
-            Numero (entre 1 e 100):
-            <input type="number" id="fnum"> 
-            <input type="button" value="Adicionar" onclick="adicionar()">
-            
-            <select name="flista" id="flista" size="6">
-                <option> Adicionar valor </option> 
-            </select>
-            <br><input type="button" value="Finalizar" onclick="finalizar()">
+        <div id="num">
+            Numero: <input type="number" id="numero"> <input type="button" value="Gerar Tabuada" onclick="gerar()">
         </div> 
         <div id="res">
-          
+          <select name="tabuada" id="tab" size="10">
+            <option> Introduza um numero a cima </option>
+          </select>
         </div>  
     </section>
     <footer>
