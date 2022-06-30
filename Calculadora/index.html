@@ -8,11 +8,11 @@
     <title>Calculadora</title>
 </head>
 <body>
-   
+    
         <div class="fundo">
-            <div class="calculator">
+           <div class="calculadora">
                 <h1>Calculadora</h1>
-                    <p class="result" id="resultado"></p>
+                    <p id="resultado"></p>
                     <table>
                         <tr>
                             <td><button class="botao" onclick="clean()">C</button></td>
@@ -36,7 +36,7 @@
                             <td><button class="botao" onclick="insert('1')">1</button></td>
                             <td><button class="botao" onclick="insert('2')">2</button></td>
                             <td><button class="botao" onclick="insert('3')">3</button></td>
-                            <td rowspan="2"><button class="botao igual" style="height: 106px;" onclick="calcular()">=</button></td>
+                            <td rowspan="2"><button class="botao" style="height: 106px;" onclick="calcular()">=</button></td>
                         </tr>
                         <tr>
                             <td colspan="2"><button class="botao" style="width: 106px;" onclick="insert('0')">0</button></td>
@@ -46,4 +46,5 @@
             </div>
         </div>
     </body>
+    <script src="script.js"></script>
 </html>
